@@ -3,12 +3,12 @@
 \moderncvtheme[blue]{casual}
 \usepackage[utf8]{inputenc}
 \usepackage{siunitx}
-\usepackage[scale=0.85, showframe]{geometry}
+\usepackage[]{geometry}
  \geometry{
   a4paper,
    total={170mm,257mm},
-  left=20mm, right=20mm,
-  top=10mm, bottom=20mm,
+  left=15mm, right=15mm,
+  top=20mm, bottom=20mm,
  }
   
 
@@ -18,14 +18,13 @@
 \phone[mobile]{+34~695~758~519}
 %\phone[fixed]{+34~937~112~441}
 \email{jordialtayo+cv@gmail.com}
-%\homepage{jagjordi.xyz/cv}
 \social[linkedin][www.linkedin.com/in/jagjordi/]{jagjordi}
 \extrainfo{This is a living document. To obtain the latest version visit \href{https://jagjordi.github.io}{jagjordi.github.io}}
 %\extrainfo{Last update: March 23, 2018}
 %\photo[84pt][1pt]{cern}
 \photo[70pt][1pt]{cv}
 \quote{I am a 22-year-old Electrical Engineering student passionate about technology. My career goal is to gain experience in all facets of Engineering and move towards Microelectronic Design. I am also a musician with interests in Art and Philosophy.}
-\setlength{\hintscolumnwidth}{0.15\textwidth}
+\setlength{\hintscolumnwidth}{0.1\textwidth}
 
 \begin{document}
 \makecvtitle
@@ -51,7 +50,7 @@
 
 \cventry{2015--2018}{Musician}{\href{https://about.me/eironquintet}{Eiron Quintet}}{Sabadell}{}{Founder and member of the group.}
 
-\cventry{Feb--Jul 2018}{R\&D Intern}{\href{https://www.esilicon.com/}{eSilicon}}{Barcelona}{}{Developement of a metric analysis tool for ASIC HLBs under PrimeTime and ICC2 environements as part of an internship and the Bachelor's Degree Thesis. This tool will allow designers to have a quick overview on all aspects of the block during the design process without the need to deepen into the design and potentially lose time by analyzing useless or redundant data. It will also provide reports with design changes proposals (ECO) to either facilitate timing clousure or reduce power consumtion.}
+\cventry{Feb--Jul 2018}{R\&D Intern}{\href{https://www.esilicon.com/}{eSilicon}}{Barcelona}{}{Development of a metric analysis tool for ASIC HLBs under Synopsys PrimeTime and ICC2 environments as part of an internship and the Bachelor's Degree Thesis. This tool will allow designers to have a quick overview on all aspects of the block during the design process without the need to deepen into the design and potentially lose time by analyzing useless or redundant data. It will also provide reports with design changes proposals (ECO) to either facilitate timing closure or reduce power consumption.}
 
 \section{Courses, awards and recognitions}
 \cventry{October 2015}{Composition Contest}{Professional Conservatory}{Sabadell}{}{Jury award for the piece "Quartet de Tardor". See \href{https://jagjordi.github.io/cert/concurs_composicio_2015.pdf}{\color{blue}diploma}.}
@@ -77,7 +76,7 @@
 \cvitemwithcomment{French}{B2 (DELF)\hspace{2em}\textit{See \href{https://jagjordi.github.io/cert/delf_b2.pdf}{\color{blue} certificate}}}{}
 \section{Personal Skills}
 \begin{cvcolumns}
-\cvcolumn{Programming Languages}{
+\cvcolumn{\small Programming Languages}{
 \begin{itemize}
  \item Python
  \item MATLAB
@@ -86,7 +85,7 @@
  \item Bash
 \end{itemize}
 }
-\cvcolumn{Hardware Languages}{
+\cvcolumn{\small Hardware Languages}{
  \begin{itemize}
   \item Verilog
   \item VHDL
@@ -94,18 +93,25 @@
   \item Verilog A/AMS
  \end{itemize}
 }
-\cvcolumn{Software}{
+\cvcolumn{\small Software}{
 \begin{itemize}
- \item GNU/Linux
- \item Altium Designer
  \item PrimeTime
  \item IC Compiler II
  \item Design Compiler
- \item LabVIEW (\href{https://www.youracclaim.com/badges/2aed1445-1cbf-46fe-a6c6-5b685505e95a}{\color{blue}CLAD})
- \item \LaTeX
+ \item Cadence Virtuoso
+ \item Altium Designer
 \end{itemize}
 }
+\cvcolumn{}{
+ \begin{itemize}
+  \item GNU/Linux
+  \item Git/SVN
+ \item LabVIEW (\href{https://www.youracclaim.com/badges/2aed1445-1cbf-46fe-a6c6-5b685505e95a}{\color{blue}CLAD})
+  \item \LaTeX
+ \end{itemize}
+}
 \end{cvcolumns}
+\vspace{-0.8em}
 \begin{cvcolumns}
 \cvcolumn{Soft Skills}{
 \begin{itemize}
@@ -126,11 +132,12 @@
 \vspace{-2em}
 \section{Projects}
 \cventry{December 2015}{Ultrasound distance meter}{\href{http://www.upc.edu/en?set_language=en}{UPC}}{Barcelona}{}{Project developed in a group of 4 engineers. Report can be downloaded \href{https://jagjordi.github.io/projects/fise/fise_informe_final.pdf}{\color{blue}here}.}
-\cventry{December 2016}{Class D audio amplifier}{\href{http://www.upc.edu/en?set_language=en}{UPC}}{Barcelona}{}{Project developed in a group of 4 engineers. Report can be downloaded \href{https://jagjordi.github.io/projects/pbe/pbe_informe_final.pdf}{\color{blue}here}.}
+\cventry{December 2016}{Design of a Class-D audio amplifier}{\href{http://www.upc.edu/en?set_language=en}{UPC}}{Barcelona}{}{Project developed in a group of 4 engineers. Report can be downloaded \href{https://jagjordi.github.io/projects/pbe/pbe_informe_final.pdf}{\color{blue}here}.}
 \cventry{June 2017}{Autonomous weather-related measurement adquisition system}{\href{http://www.upc.edu/en?set_language=en}{UPC}}{Barcelona}{}{Project developed in a group of 2 engineers. Report can be downloaded \href{https://jagjordi.github.io/projects/estacion_meteorologica/isdm_informe_final.pdf}{\color{blue}here}.}
 \cventry{December 2017}{\href{http://www.cbi-course.com/}{CBI Course}}{\href{http://www.upc.edu/en?set_language=en}{UPC} \& \href{https://home.cern/}{CERN}}{Barcelona \& Geneva}{}{Project developed in a student team of 2 engineers, 2 designers and 2 MBAs.\\
 Final dossier can be downloaded \href{https://jagjordi.github.io/projects/cbi/FINAL_Dossier_SAKER.pdf}{\color{blue}here}.}
 \cventry{June 2018}{Bachelor's Thesis}{eSilicon \& \href{http://www.upc.edu/en?set_language=en}{UPC}}{Barcelona}{}{\textit{Improving ASIC HLBs Quality of Results Using Design Metrics}. See \textit{Experience} for Project details.}
-\cventry{2018--2020}{KTH Formula Student}{Stokholm}{}{}{Member of the low-voltage electronics group. See website \href{http://www.kthformulastudent.se/}{here}.}
+\cventry{March 2019}{Design of a SAR ADC}{}{Stokholm}{}{Design of a 5-bit SAR ADC operating at 100 MHz. See report \href{https://jagjordi.github.io/projects/sar.pdf}{\color{blue}{here}}.}
+\cventry{Ongonig}{KTH Formula Student}{UPC}{Stokholm}{}{Member of the low-voltage electronics group. See website \href{http://www.kthformulastudent.se/}{\color{blue}{here}}.}
 %\cventry{June 2018}{Master's Thesis}{eSilicon \& \href{http://www.upc.edu/en?set_language=en}{UPC}}{Barcelona}{}{\textit{Improving ASIC HLBs Quality of Results Using Design Metrics}. See \textit{Experience} for Project details.}
 \end{document}
